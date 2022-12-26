@@ -2,9 +2,45 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+  margin: 0;
+  border-width: 0;
+}
+
+.header {
+  display: flex;
+  background-color: #282c34;
+  color: white;
+  width: 100%;
+  position: sticky;
+}
+
+.footer {
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+  height: 50px;
+}
+
+.footer-btn {
+  border-radius: 50%;
+  border: #282c34;
+  background-color: #282c34;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.left-bottom {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+}
+
+.right-bottom {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -32,6 +68,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
