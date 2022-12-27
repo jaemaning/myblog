@@ -23,23 +23,25 @@ html {
 }
 
 .footer-btn {
-  border-radius: 50%;
+  border-radius: 40%;
   border: #282c34;
   background-color: #282c34;
   color: white;
-  padding: 10px;
+  padding: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
   cursor: pointer;
 }
 
 .left-bottom {
   position: absolute;
-  left: 10px;
+  left: 20px;
   bottom: 10px;
 }
 
 .right-bottom {
   position: absolute;
-  right: 10px;
+  right: 20px;
   bottom: 10px;
 }
 

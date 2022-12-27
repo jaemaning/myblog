@@ -6,7 +6,9 @@ function App() {
   return (
     <div className="App">
       <div className='header'>
+        <button>상단왼쪽버튼</button>
         <h4 style={{ textAlign: 'center', marginLeft: "auto", marginRight: "auto" }}>Jeam 블로그</h4>
+        <button>상단오른쪽버튼</button>
       </div>
 
       <Routes>
