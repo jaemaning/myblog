@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: #282c34;
+  color: white;
 }
 
 html {
@@ -15,17 +17,36 @@ html {
   position: sticky;
 }
 
+.header-btn {
+  width: 10%;
+  border-radius: 10%;
+  cursor: pointer;
+  background: 0;
+  border: 0;
+  color: #fff;
+}
+
+.header-btn-line {
+  border-radius: 5px;
+  height: 3px;
+  transition: transform .35s var(--ease-in-out-cubic), opacity .35s var(--ease-in-out-cubic);
+  width: 20px;
+  background-color: #fff;
+  margin: 3px;
+}
+
 .footer {
   width: 100%;
   bottom: 0;
   position: fixed;
   height: 50px;
+  background-color: #282c34;
 }
 
 .footer-btn {
   border-radius: 40%;
-  border: #282c34;
-  background-color: #282c34;
+  border: grey;
+  background-color: grey;
   color: white;
   padding: 7px;
   padding-left: 10px;

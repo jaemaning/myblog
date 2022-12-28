@@ -6,9 +6,13 @@ function App() {
   return (
     <div className="App">
       <div className='header'>
-        <button>상단왼쪽버튼</button>
+        <button className='header-btn'>
+          <div className='header-btn-line'></div>
+          <div className='header-btn-line'></div>
+          <div className='header-btn-line'></div>
+        </button>
         <h4 style={{ textAlign: 'center', marginLeft: "auto", marginRight: "auto" }}>Jeam 블로그</h4>
-        <button>상단오른쪽버튼</button>
+        <button className='header-btn'>상단오른쪽버튼</button>
       </div>
 
       <Routes>
